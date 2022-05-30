@@ -69,6 +69,7 @@ ul li{
 .btn:hover{
     background-color: #fff;
     color: #570A57;
+    border: solid 1px #570A57;
 }
 
 /* intro section styles */
@@ -102,14 +103,99 @@ ul li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 32px;
+    padding: 24px;
 }
 
 #categories h2{
-    font-size: 28px;
+    font-size: 32px;
+    color: #570A57;
 }
 
 .boxes{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
 
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.box p{
+    max-width: 300px;
+}
+
+.catimg{
+    width: 300px;
+    height: 400px;
+}
+
+.catimg img{
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+}
+
+/* testimonial styling */
+#testimonial{
+    background-color: #764AF1;
+}
+
+.message{
+    padding-top: 32px;
+    margin: auto;
+    height: 400px;
+    width: 70%;
+}
+
+.message .quote{
+    font-size: 32px;
+    font-style: italic;
+}
+.name{
+    width: 70%;
+    margin: auto;
+    text-align: right;
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* call to action styling */
+.signup{
+    background-color: #fff;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer{
+    color:#fff;
+    width:70%;
+    height: 200px;
+    background-color: #293462;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.order{
+    display: flex;
+    align-items: center;
+}
+
+/* footer styling */
+footer{
+    height: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E0249;
+}
